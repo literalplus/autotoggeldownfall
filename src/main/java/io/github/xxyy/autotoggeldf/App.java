@@ -2,6 +2,7 @@ package io.github.xxyy.autotoggeldf;
 
 import io.github.xxyy.common.util.CommandHelper;
 import org.bukkit.Bukkit;
+import org.bukkit.World;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
@@ -15,6 +16,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class App extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
+        for (World wrld : Bukkit.getWorlds()) {
+            wrld.setStorm(false);
+            wrld.setThundering(false);
+        }
+
         Bukkit.getPluginManager().registerEvents(this, this);
     }
 
