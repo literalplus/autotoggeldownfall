@@ -1,0 +1,9 @@
+name: AutoToggelDownfall
+version: 1
+description: Automagically turns rain off the moment it appears o.O
+load: POSTWORLD
+author: xxyy98(http://xxyy.github.io)
+website: http://xxyy.github.io/
+main: io.github.xxyy.autotoggeldf.App
+
+prefix: ATDf
