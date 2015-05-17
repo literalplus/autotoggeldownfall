@@ -6,7 +6,7 @@ Bukkit plugin that automagically silences weather.
 How to get this plugin
 ==============
 Get the current build from [my Continuous Integration server](https://ci.nowak-at.net/job/public~AutoToggelDownfall/)
- and place it in your $BUKKIT_DIR$/plugins folder.
+ and place it in your plugins folder.
 
 License
 ========
