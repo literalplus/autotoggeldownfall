@@ -1,11 +1,11 @@
-autotoggeldownfall [![Build Status](https://server.nowak-at.net/jenkins/buildStatus/icon?job=public~AutoToggelDownfall)](https://server.nowak-at.net/jenkins/job/public~AutoToggelDownfall)
+autotoggeldownfall [![Build Status](https://ci.l1t.li/buildStatus/icon?job=public~AutoToggelDownfall)](https://ci.l1t.li/job/public~AutoToggelDownfall)
 ==================
 
 Bukkit plugin that automagically silences weather.
 
 How to get this plugin
 ==============
-Get the current build from [my Continuous Integration server](https://ci.nowak-at.net/job/public~AutoToggelDownfall/)
+Get the current build from [my Continuous Integration server](https://ci.l1t.li/job/public~AutoToggelDownfall/)
  and place it in your plugins folder.
 
 License
